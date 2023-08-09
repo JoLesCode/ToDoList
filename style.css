@@ -1,0 +1,72 @@
+body{
+    background-image: url(./creased.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.output{
+    display: flex;
+    justify-content: center;
+}
+
+.output ul{
+    margin-left: 0px;
+    font-size: 30px;
+}
+
+.enter{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#field{
+    margin-left: 0px;
+     width: 700px;
+}
+
+.in{
+    display: flex;
+}
+
+span :hover{
+    cursor: pointer;
+    margin-left: 0em;
+}
+
+span{
+    height: 50px;
+    width: 50px;
+}
+
+.headline{
+    font-size: 140px;
+    margin-top: 50px;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    
+}
+
+p{
+    font-family: 'Caveat', cursive;
+}
+
+p:hover{
+    cursor:url(./delete.png);
+}
+
+ul{
+    margin-left:0px;
+    list-style: none;
+}
+
+.back{
+    background-image: url(./creased.jpg);
+    position: absolute;
+    top:0; bottom:0;left:0;right:0;
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
